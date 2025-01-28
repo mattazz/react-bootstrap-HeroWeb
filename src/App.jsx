@@ -1,12 +1,12 @@
 import './App.css'
-import Nav from './components/Nav'
+import CustomNav from './components/CustomNav'
 
 function App() {
 
   return (
     <>
     <div>
-      <Nav />
+      <CustomNav />
     </div>
     </>
   )
