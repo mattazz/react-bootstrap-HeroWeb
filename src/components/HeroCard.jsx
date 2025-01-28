@@ -8,8 +8,8 @@ function HeroCard({ src = "holder.js/100px180", cardTitle = "Default card title"
                 <Card.Img variant="top" src={src}  className="card-img"/>
             </div>
             <Card.Body>
-                <Card.Title>{cardTitle}</Card.Title>
-                <Card.Text>
+                <Card.Title className="text-center">{cardTitle}</Card.Title>
+                <Card.Text className="text-center">
                     {cardText}
                 </Card.Text>
             </Card.Body>
