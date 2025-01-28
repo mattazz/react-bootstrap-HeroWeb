@@ -8,7 +8,7 @@ function CustomNav() {
     const handleShow = () => setShow(true);
     return (
         <>
-            <Navbar expand="lg" className="bg-body-tertiary">
+            <Navbar expand="lg" className="" bg="danger" variant="dark" >
                 <Container>
                     <Navbar.Brand href="#home">Matthew Azada</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
